@@ -61,12 +61,51 @@ body {
     /* align-items: center; */
 
     /* height: 20px; */
+
+    position: relative;
+    top: -50px;
 }
 
     .profile img  {
         border-radius: 50%;
 
         border-style: solid;
-        border-color: black;
+        border-color: white;
         border-width: 5px;
-    }
+    } 
+
+.info {
+    display: flex;
+    justify-content: center;
+
+    gap: 10px;
+
+    font-size: 18px;
+
+}    
+
+.info h1 {
+    font-weight: bold;
+}
+
+div .age {
+    color: hsl(227, 10%, 46%);
+}
+
+h2 {
+    text-align: center;
+
+    color: hsl(227, 10%, 46%);
+}
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px;
+}
+
+.stats h1 {
+    font-weight: bold;
+}
+
