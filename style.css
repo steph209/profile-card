@@ -38,7 +38,8 @@ body {
     background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
     /* background-image: url(images/bg-pattern-bottom.svg); */
     background-position: left top, right bottom;
-    /* background-repeat: no-repeat, no-repeat; */
+    background-repeat: no-repeat, no-repeat;
+    background-size: auto,auto;
 }
 
 .header {
@@ -130,3 +131,19 @@ body {
         letter-spacing: 0px;
         padding-bottom: 6px;
     }
+
+/* =============================================================================
+#DESKTOP
+============================================================================= */
+
+@media screen and (min-width: 375px) {
+    body {
+        /* background-color: red; */
+
+        background-position: left 50px top -200px, right 100px bottom -200px;
+    }
+
+    main {
+        width: 400px;
+    }
+}
